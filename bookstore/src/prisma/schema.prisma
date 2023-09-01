@@ -1,0 +1,29 @@
+datasource db {
+  provider = "postgresql"
+  url = "postgresql://localhost:5432/bookstore"
+}
+
+model Book {
+  id Int @id @default(autoincrement())
+  title String
+  writer String
+  coverImage String
+  point Int
+  tags String[]
+}
+
+model User {
+  id Int @id @default(autoincrement())
+  name String
+  email String @unique
+  password String
+  point Int
+}
+
+model Order {
+  id Int @id @default(autoincrement())
+  user Int @references(User, id)
+  book Int @references(Book, id)
+  quantity Int
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "The Alchemist",
+    "writer": "Paulo Coelho",
+    "coverImage": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 100,
+    "tags": ["fiction", "self-help"]
+  },
+  {
+    "id": 2,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "writer": "Douglas Adams",
+    "coverImage": "https://images-na.ssl-images-amazon.com/images/I/51t9i9q276L._AC_SX184_.jpg",
+    "point": 50,
+    "tags": ["science fiction", "comedy"]
+  },
+  {
+    "id": 3,
+    "title": "To Kill a Mockingbird",
+    "writer": "Harper Lee",
+    "coverImage": "https://images-na.ssl-images-amazon.com/images/I/51aX-85533L._AC_SX184_.jpg",
+    "point": 150,
+    "tags": ["fiction", "drama"]
+  }
+]
